@@ -1,296 +1,1358 @@
 [
   {
     "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] 【逻辑】预测HOLD时执行LONG不合理。",
-    "score": 2.6813411260359254,
+    "score": 0.23554243585854848,
     "timestamp": 1770107752.9876447,
     "volatility_context": 0.013672640970885391
   },
   {
     "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
-    "score": 2.735783211953806,
+    "score": 0.24032490139633556,
     "timestamp": 1770109480.0771794,
     "volatility_context": 0.013627174886254492
   },
   {
     "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
-    "score": 2.8195259522619383,
+    "score": 0.2476812831883116,
     "timestamp": 1770115285.239943,
     "volatility_context": 0.013627174886254492
   },
   {
     "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
-    "score": 2.9058320705905483,
+    "score": 0.25526284494605433,
     "timestamp": 1770115564.0545146,
     "volatility_context": 0.013162364426548454
   },
   {
     "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
-    "score": 2.9648322320074976,
+    "score": 0.26044571466794647,
     "timestamp": 1770115938.487905,
     "volatility_context": 0.013627174886254492
   },
   {
     "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] 【方向】趋势强度判断错误，应修正策略。",
-    "score": 3.055586197664326,
+    "score": 0.2684179976151129,
     "timestamp": 1770116483.5367908,
     "volatility_context": 0.013162364426548454
   },
   {
     "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] 【方向】趋势判断错误，应做空而非持有。",
-    "score": 3.0864507047114405,
+    "score": 0.2711292905203161,
     "timestamp": 1770116615.4164143,
     "volatility_context": 0.013161900219811288
   },
   {
     "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
-    "score": 3.1176269744560003,
+    "score": 0.2738679702225415,
     "timestamp": 1770116753.5211875,
     "volatility_context": 0.013315609880402524
   },
   {
     "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
-    "score": 3.149118156016162,
+    "score": 0.2766343133561025,
     "timestamp": 1770116874.752501,
     "volatility_context": 0.013413459385517022
   },
   {
     "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] 【逻辑】分析未捕捉市场真实方向。",
-    "score": 3.1809274303193553,
+    "score": 0.2794285993495985,
     "timestamp": 1770116986.3292205,
     "volatility_context": 0.012307915020743838
   },
   {
     "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
-    "score": 3.2455131418420113,
+    "score": 0.2851021317718585,
     "timestamp": 1770117188.0911934,
     "volatility_context": 0.012433349354696453
   },
   {
     "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
-    "score": 3.2782961028707187,
+    "score": 0.28798195128470555,
     "timestamp": 1770117288.162305,
     "volatility_context": 0.013312544468906447
   },
   {
     "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
-    "score": 3.311410204919918,
+    "score": 0.29089085988354096,
     "timestamp": 1770117436.1222146,
     "volatility_context": 0.012075629573290985
   },
   {
     "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
-    "score": 3.344858792848402,
+    "score": 0.29382915139751614,
     "timestamp": 1770117550.2447798,
     "volatility_context": 0.012115533272382652
   },
   {
     "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
-    "score": 3.378645245301416,
+    "score": 0.2967971226237537,
     "timestamp": 1770117708.9979973,
     "volatility_context": 0.011142079079696355
   },
   {
     "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
-    "score": 3.4127729750519356,
+    "score": 0.29979507335732697,
     "timestamp": 1770117862.723913,
     "volatility_context": 0.011172260873303728
   },
   {
     "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
-    "score": 3.4472454293453896,
+    "score": 0.30282330642154237,
     "timestamp": 1770118033.1248643,
     "volatility_context": 0.010346103555319376
   },
   {
     "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
-    "score": 3.4820660902478684,
+    "score": 0.30588212769852763,
     "timestamp": 1770118161.317151,
     "volatility_context": 0.010320542271642476
   },
   {
     "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
-    "score": 3.5172384749978467,
+    "score": 0.3089718461601289,
     "timestamp": 1770118314.9089015,
     "volatility_context": 0.009684944556249861
   },
   {
     "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
-    "score": 3.5527661363614613,
+    "score": 0.3120927738991201,
     "timestamp": 1770118423.599699,
     "volatility_context": 0.009503053221042322
   },
   {
     "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
-    "score": 3.5886526629913753,
+    "score": 0.31524522616072737,
     "timestamp": 1770118673.2341125,
     "volatility_context": 0.009472093017807316
   },
   {
     "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
-    "score": 3.624901679789268,
+    "score": 0.3184295213744721,
     "timestamp": 1770118777.0369043,
     "volatility_context": 0.009344798357944696
   },
   {
     "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
-    "score": 3.698501866941402,
+    "score": 0.32489493049124796,
     "timestamp": 1770118979.47289,
     "volatility_context": 0.009765882456978178
   },
   {
     "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
-    "score": 3.7358604716579817,
+    "score": 0.32817669746590705,
     "timestamp": 1770119153.629229,
     "volatility_context": 0.008891163706790758
   },
   {
     "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
-    "score": 3.7735964360181633,
+    "score": 0.3314916136019263,
     "timestamp": 1770119278.7979367,
     "volatility_context": 0.009130182909520234
   },
   {
     "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
-    "score": 3.8117135717355186,
+    "score": 0.3348400137393195,
     "timestamp": 1770120524.0127788,
     "volatility_context": 0.009723990849952565
   },
   {
     "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
-    "score": 3.8502157290257766,
+    "score": 0.3382222361003227,
     "timestamp": 1770120616.3308308,
     "volatility_context": 0.009373784261240721
   },
   {
     "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
-    "score": 3.889106796995734,
+    "score": 0.3416386223235583,
     "timestamp": 1770120689.0732005,
     "volatility_context": 0.009280520187821637
   },
   {
     "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] 【方向】过度依赖技术信号，忽略宏观因素。",
-    "score": 3.9283907040360946,
+    "score": 0.3450895174985437,
     "timestamp": 1770120849.1277597,
     "volatility_context": 0.00929874521622076
   },
   {
     "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
-    "score": 3.9680714182182775,
+    "score": 0.34857527020054924,
     "timestamp": 1770120993.5331879,
     "volatility_context": 0.008804178147401523
   },
   {
     "content": "[【低波死鱼】(建议观望或区间操作)] ",
-    "score": 4.00815294769523,
+    "score": 0.3520962325258073,
     "timestamp": 1770121156.742978,
     "volatility_context": 0.007647824915573652
   },
   {
     "content": "[【低波死鱼】(建议观望或区间操作)] ",
-    "score": 4.048639341106293,
+    "score": 0.3556527601270781,
     "timestamp": 1770121330.8212218,
     "volatility_context": 0.007584176899731757
   },
   {
     "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
-    "score": 4.089534687986155,
+    "score": 0.35924521224957384,
     "timestamp": 1770121461.2365057,
     "volatility_context": 0.008169198855544527
   },
   {
     "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
-    "score": 4.130843119177934,
+    "score": 0.3628739517672463,
     "timestamp": 1770121559.1645226,
     "volatility_context": 0.008103778670027383
   },
   {
     "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
-    "score": 4.214715966919634,
+    "score": 0.37024176284791993,
     "timestamp": 1770122934.1325386,
     "volatility_context": 0.00825087910735472
   },
   {
     "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
-    "score": 4.2572888554743775,
+    "score": 0.37398157863426257,
     "timestamp": 1770123101.8023665,
     "volatility_context": 0.008181069366140667
   },
   {
     "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
-    "score": 4.300291773206442,
+    "score": 0.37775917033763895,
     "timestamp": 1770124416.2810507,
     "volatility_context": 0.008156302644742996
   },
   {
     "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
-    "score": 4.343729063844891,
+    "score": 0.3815749195329686,
     "timestamp": 1770124503.2175558,
     "volatility_context": 0.008174399552809072
   },
   {
     "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
-    "score": 4.431924358580646,
+    "score": 0.38932243600955885,
     "timestamp": 1770124696.001559,
     "volatility_context": 0.00841789376231316
   },
   {
     "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
-    "score": 4.476691271293581,
+    "score": 0.39325498586824126,
     "timestamp": 1770125921.2082386,
     "volatility_context": 0.008597689122460485
   },
   {
     "content": "[【低波死鱼】(建议观望或区间操作)] ",
-    "score": 4.521910375044022,
+    "score": 0.39722725845276896,
     "timestamp": 1770126008.0410147,
     "volatility_context": 0.007771900781309169
   },
   {
     "content": "[【低波死鱼】(建议观望或区间操作)] ",
-    "score": 4.567586237418204,
+    "score": 0.40123965500279696,
     "timestamp": 1770127273.3872576,
     "volatility_context": 0.0077764578713508175
   },
   {
     "content": "[【低波死鱼】(建议观望或区间操作)] ",
-    "score": 4.6137234721396,
+    "score": 0.405292580810906,
     "timestamp": 1770127353.5558262,
     "volatility_context": 0.00776022256492242
   },
   {
     "content": "[【低波死鱼】(建议观望或区间操作)] ",
-    "score": 4.660326739534949,
+    "score": 0.40938644526354145,
     "timestamp": 1770127427.3567705,
     "volatility_context": 0.0072450942124698955
   },
   {
     "content": "[【低波死鱼】(建议观望或区间操作)] ",
-    "score": 4.707400747004999,
+    "score": 0.4135216618823651,
     "timestamp": 1770127518.6658392,
     "volatility_context": 0.007221396242501646
   },
   {
     "content": "[【低波死鱼】(建议观望或区间操作)] ",
-    "score": 4.8029800499999995,
+    "score": 0.4219178266323489,
     "timestamp": 1770130008.0274024,
     "volatility_context": 0.007947927932819992
   },
   {
     "content": "[【低波死鱼】(建议观望或区间操作)] ",
-    "score": 4.851495,
+    "score": 0.4261796228609585,
     "timestamp": 1770130161.1200767,
     "volatility_context": 0.007816710378991433
   },
   {
     "content": "[【低波死鱼】(建议观望或区间操作)] ",
-    "score": 4.9005,
+    "score": 0.43048446753632175,
     "timestamp": 1770130269.9094977,
     "volatility_context": 0.007826647471654085
   },
   {
     "content": "[【低波死鱼】(建议观望或区间操作)] ",
-    "score": 4.95,
+    "score": 0.4348327954912341,
     "timestamp": 1770130361.9594252,
     "volatility_context": 0.007837603319995452
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 0.4392250459507415,
+    "timestamp": 1770177419.3376033,
+    "volatility_context": 0.013672640970885391
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 0.4436616625765066,
+    "timestamp": 1770177578.5582871,
+    "volatility_context": 0.013627174886254492
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 0.4572422135614966,
+    "timestamp": 1770178055.7858539,
+    "volatility_context": 0.013162364426548454
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 0.4618608217792895,
+    "timestamp": 1770178182.8483825,
+    "volatility_context": 0.013161900219811288
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 0.46652608260534295,
+    "timestamp": 1770179553.2597477,
+    "volatility_context": 0.013315609880402524
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 0.4712384672781242,
+    "timestamp": 1770179668.6383784,
+    "volatility_context": 0.013413459385517022
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 0.4856631484502449,
+    "timestamp": 1770182321.857371,
+    "volatility_context": 0.012433349354696453
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 0.49056883681842917,
+    "timestamp": 1770183694.533211,
+    "volatility_context": 0.013312544468906447
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 0.5005293713074473,
+    "timestamp": 1770185110.682932,
+    "volatility_context": 0.012115533272382652
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 0.5055852235428762,
+    "timestamp": 1770186391.1812289,
+    "volatility_context": 0.011142079079696355
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 0.5106921449928042,
+    "timestamp": 1770186500.1787696,
+    "volatility_context": 0.011172260873303728
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 0.5210612641493769,
+    "timestamp": 1770187900.9272819,
+    "volatility_context": 0.010320542271642476
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 0.5263245092417949,
+    "timestamp": 1770188056.6961782,
+    "volatility_context": 0.009684944556249861
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 0.5370110287131873,
+    "timestamp": 1770188254.426837,
+    "volatility_context": 0.009472093017807316
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 0.542435382538573,
+    "timestamp": 1770188334.8515265,
+    "volatility_context": 0.009344798357944696
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 0.5590394121178864,
+    "timestamp": 1770189909.4153116,
+    "volatility_context": 0.008891163706790758
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 0.564686274866552,
+    "timestamp": 1770190062.2032154,
+    "volatility_context": 0.009130182909520234
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 0.5761516935685665,
+    "timestamp": 1770190323.2072725,
+    "volatility_context": 0.009373784261240721
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 0.5819714076450168,
+    "timestamp": 1770190401.270268,
+    "volatility_context": 0.009280520187821637
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 0.5878499067121381,
+    "timestamp": 1770190568.6592093,
+    "volatility_context": 0.00929874521622076
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 0.5937877845577153,
+    "timestamp": 1770191010.3589694,
+    "volatility_context": 0.008804178147401523
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 0.5997856409673892,
+    "timestamp": 1770191135.6997824,
+    "volatility_context": 0.007647824915573652
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 0.6058440817852416,
+    "timestamp": 1770192431.776889,
+    "volatility_context": 0.007584176899731757
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 0.6119637189749916,
+    "timestamp": 1770193746.4337738,
+    "volatility_context": 0.008169198855544527
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 0.6181451706818096,
+    "timestamp": 1770193902.5932634,
+    "volatility_context": 0.008103778670027383
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 0.6306960215098558,
+    "timestamp": 1770196613.479886,
+    "volatility_context": 0.00825087910735472
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 0.6370666883937938,
+    "timestamp": 1770196759.3402407,
+    "volatility_context": 0.008181069366140667
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 0.6435017054482766,
+    "timestamp": 1770196963.7295134,
+    "volatility_context": 0.008156302644742996
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 0.6500017226750269,
+    "timestamp": 1770197104.0720794,
+    "volatility_context": 0.008174399552809072
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 0.6766650245351601,
+    "timestamp": 1770198700.537323,
+    "volatility_context": 0.007771900781309169
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 0.68350002478299,
+    "timestamp": 1770198859.6744633,
+    "volatility_context": 0.0077764578713508175
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 0.6904040654373637,
+    "timestamp": 1770198991.5508766,
+    "volatility_context": 0.00776022256492242
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 0.6973778438761249,
+    "timestamp": 1770200277.48105,
+    "volatility_context": 0.0072450942124698955
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 0.7044220645213383,
+    "timestamp": 1770201557.6449244,
+    "volatility_context": 0.007221396242501646
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 0.718724685768124,
+    "timestamp": 1770204141.8783078,
+    "volatility_context": 0.007947927932819992
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] 【时机】低波动市况需耐心等待明确信号。",
+    "score": 0.7259845310789131,
+    "timestamp": 1770205438.1028416,
+    "volatility_context": 0.007816710378991433
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 0.7333177081605183,
+    "timestamp": 1770206740.596028,
+    "volatility_context": 0.007826647471654085
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 0.7407249577378973,
+    "timestamp": 1770208023.345411,
+    "volatility_context": 0.007837603319995452
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 0.748207028018078,
+    "timestamp": 1770209316.7338762,
+    "volatility_context": 0.007382061784916568
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 0.7557646747657354,
+    "timestamp": 1770209419.0462804,
+    "volatility_context": 0.007359526625424052
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 0.7633986613795307,
+    "timestamp": 1770210705.4854481,
+    "volatility_context": 0.006828651533698165
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 0.771109758969223,
+    "timestamp": 1770212015.520229,
+    "volatility_context": 0.006769427637126307
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 0.7788987464335585,
+    "timestamp": 1770213317.8679137,
+    "volatility_context": 0.006766226658805018
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 0.786766410538948,
+    "timestamp": 1770214629.7344105,
+    "volatility_context": 0.007100156404224704
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 0.7947135459989374,
+    "timestamp": 1770215478.109173,
+    "volatility_context": 0.007133302942358569
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 0.8027409555544822,
+    "timestamp": 1770216768.2605243,
+    "volatility_context": 0.006849713452893355
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] 【方向】低波动环境下需警惕价格反向突破。",
+    "score": 0.8108494500550325,
+    "timestamp": 1770216883.1932425,
+    "volatility_context": 0.006919625229658405
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 0.8190398485404369,
+    "timestamp": 1770216953.873724,
+    "volatility_context": 0.006664952036998444
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 0.8273129783236737,
+    "timestamp": 1770217068.5498238,
+    "volatility_context": 0.006592427563398558
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 0.8356696750744178,
+    "timestamp": 1770218345.4849763,
+    "volatility_context": 0.006530769581336742
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 0.8441107829034523,
+    "timestamp": 1770219643.2751853,
+    "volatility_context": 0.005948454707001474
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 0.8526371544479316,
+    "timestamp": 1770220933.1270552,
+    "volatility_context": 0.0058863757092937246
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 0.8612496509575067,
+    "timestamp": 1770222213.9825463,
+    "volatility_context": 0.005861911236782805
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 0.8699491423813199,
+    "timestamp": 1770222289.8696752,
+    "volatility_context": 0.005808294123715526
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 0.8787365074558787,
+    "timestamp": 1770223576.4038413,
+    "volatility_context": 0.005180024857173066
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 0.8965784179735524,
+    "timestamp": 1770224974.7456765,
+    "volatility_context": 0.006039498427717759
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 0.9056347656298509,
+    "timestamp": 1770225042.3007374,
+    "volatility_context": 0.005904598323688167
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 0.914782591545304,
+    "timestamp": 1770225110.0353937,
+    "volatility_context": 0.0057812022027642984
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 0.9333563835785165,
+    "timestamp": 1770227670.963193,
+    "volatility_context": 0.006511123200133968
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 0.9427842258368854,
+    "timestamp": 1770227780.9649017,
+    "volatility_context": 0.005848887680717052
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 0.9523072988251368,
+    "timestamp": 1770227864.7529595,
+    "volatility_context": 0.005970893112531675
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 0.9619265644698352,
+    "timestamp": 1770227947.6939116,
+    "volatility_context": 0.005372856236056901
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 0.971642994413975,
+    "timestamp": 1770228042.6078215,
+    "volatility_context": 0.005402098479433343
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 0.9814575701151262,
+    "timestamp": 1770229367.7669702,
+    "volatility_context": 0.005393185862340777
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 0.991371282944572,
+    "timestamp": 1770229524.9150267,
+    "volatility_context": 0.005224188486799229
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 1.0013851342874465,
+    "timestamp": 1770229658.937663,
+    "volatility_context": 0.006007307592197764
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 1.0115001356438853,
+    "timestamp": 1770230940.7864943,
+    "volatility_context": 0.0061635466918715945
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 1.0217173087311973,
+    "timestamp": 1770231046.7010715,
+    "volatility_context": 0.006123006354105391
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 1.0320376855870679,
+    "timestamp": 1770231113.68828,
+    "volatility_context": 0.007140668419521611
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 1.0424623086738058,
+    "timestamp": 1770231198.6031828,
+    "volatility_context": 0.007149162050208246
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 1.0529922309836424,
+    "timestamp": 1770231290.376059,
+    "volatility_context": 0.007046456285214725
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 1.0636285161450934,
+    "timestamp": 1770232590.9229798,
+    "volatility_context": 0.006805728432182376
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 1.0743722385303973,
+    "timestamp": 1770232719.4247725,
+    "volatility_context": 0.006848301074191906
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 1.0852244833640377,
+    "timestamp": 1770233340.4914525,
+    "volatility_context": 0.006900223905199702
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 1.0961863468323614,
+    "timestamp": 1770233437.3733335,
+    "volatility_context": 0.006232299814394706
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 1.1072589361943044,
+    "timestamp": 1770233524.8646994,
+    "volatility_context": 0.006204601498656696
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 1.1184433698932368,
+    "timestamp": 1770234822.0275285,
+    "volatility_context": 0.006193979428577987
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 1.1297407776699362,
+    "timestamp": 1770236112.2501488,
+    "volatility_context": 0.00616067975871731
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 1.1411523006767033,
+    "timestamp": 1770236216.8921943,
+    "volatility_context": 0.005268405936039854
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 1.1526790915926295,
+    "timestamp": 1770236362.0703588,
+    "volatility_context": 0.0052546086228378005
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 1.16432231474003,
+    "timestamp": 1770236517.7705271,
+    "volatility_context": 0.00531076798593313
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 1.1760831462020505,
+    "timestamp": 1770236599.908449,
+    "volatility_context": 0.005359826321919314
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 1.187962773941465,
+    "timestamp": 1770237897.4111176,
+    "volatility_context": 0.005516177919978401
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 1.2120832302229008,
+    "timestamp": 1770238258.0407555,
+    "volatility_context": 0.00620056709303916
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 1.2243264951746473,
+    "timestamp": 1770238336.227684,
+    "volatility_context": 0.005671796982669972
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 1.2366934294693408,
+    "timestamp": 1770238437.6219885,
+    "volatility_context": 0.005347107977276025
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 1.2491852822922636,
+    "timestamp": 1770239741.8418396,
+    "volatility_context": 0.005257660494469264
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 1.261803315446731,
+    "timestamp": 1770239800.056065,
+    "volatility_context": 0.004736290610718106
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 1.2745488034815464,
+    "timestamp": 1770239889.0073671,
+    "volatility_context": 0.004806946201500492
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 1.2874230338197439,
+    "timestamp": 1770239966.1818078,
+    "volatility_context": 0.004818978940072985
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 1.3004273068886303,
+    "timestamp": 1770240041.0082402,
+    "volatility_context": 0.00474073688763675
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 1.3135629362511416,
+    "timestamp": 1770241337.878898,
+    "volatility_context": 0.004950579081764867
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 1.326831248738527,
+    "timestamp": 1770241431.2948153,
+    "volatility_context": 0.004919967595393123
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 1.3402335845843707,
+    "timestamp": 1770242731.176113,
+    "volatility_context": 0.004811723403451715
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 1.3537712975599705,
+    "timestamp": 1770242829.2581117,
+    "volatility_context": 0.004810455484461975
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 1.3674457551110812,
+    "timestamp": 1770242909.4879847,
+    "volatility_context": 0.004835463102355884
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 1.3812583384960417,
+    "timestamp": 1770244206.3395424,
+    "volatility_context": 0.0050435456107119385
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 1.3952104429252947,
+    "timestamp": 1770244271.7566812,
+    "volatility_context": 0.004952388373883783
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 1.409303477702318,
+    "timestamp": 1770244360.3256836,
+    "volatility_context": 0.004881487548554278
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 1.4235388663659776,
+    "timestamp": 1770245655.146398,
+    "volatility_context": 0.004838776096755377
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 1.437918046834321,
+    "timestamp": 1770245900.4539,
+    "volatility_context": 0.004885163821467247
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 1.4524424715498192,
+    "timestamp": 1770247204.7514243,
+    "volatility_context": 0.004849538958333934
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 1.46711360762608,
+    "timestamp": 1770247311.702608,
+    "volatility_context": 0.005032516166911183
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 1.4819329369960403,
+    "timestamp": 1770247379.4372642,
+    "volatility_context": 0.005443255292493984
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 1.4969019565616568,
+    "timestamp": 1770247473.3065252,
+    "volatility_context": 0.0054895638457571104
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 1.512022178345108,
+    "timestamp": 1770247589.023519,
+    "volatility_context": 0.00552541050034961
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 1.5272951296415231,
+    "timestamp": 1770247692.7893136,
+    "volatility_context": 0.005783116288145624
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 1.5427223531732557,
+    "timestamp": 1770247769.4912975,
+    "volatility_context": 0.006148123124705904
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 1.5583054072457128,
+    "timestamp": 1770247890.66814,
+    "volatility_context": 0.006065534205122365
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 1.5740458659047605,
+    "timestamp": 1770249192.2661018,
+    "volatility_context": 0.006143473150651563
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 1.5899453190957176,
+    "timestamp": 1770249274.228892,
+    "volatility_context": 0.006310368824614313
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 1.6060053728239572,
+    "timestamp": 1770249359.660082,
+    "volatility_context": 0.006235687765194926
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 1.6222276493171284,
+    "timestamp": 1770249438.0041444,
+    "volatility_context": 0.006227617693977655
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 1.6386137871890185,
+    "timestamp": 1770249548.5477815,
+    "volatility_context": 0.00621533375685415
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 1.671884284449565,
+    "timestamp": 1770249695.226729,
+    "volatility_context": 0.007121824650338827
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 1.68877200449451,
+    "timestamp": 1770249759.7883372,
+    "volatility_context": 0.007268367411745426
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 1.7058303075702121,
+    "timestamp": 1770251038.6995533,
+    "volatility_context": 0.007467182459733846
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 1.7404655724622102,
+    "timestamp": 1770252396.208289,
+    "volatility_context": 0.010245043235827063
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 1.9052355905227483,
+    "timestamp": 1770280770.2015777,
+    "volatility_context": 0.009768844115008104
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 1.9635551417890242,
+    "timestamp": 1770283055.1253548,
+    "volatility_context": 0.01088221683875384
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 2.023659863391619,
+    "timestamp": 1770286943.1258752,
+    "volatility_context": 0.010702917475339363
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 2.127950616943273,
+    "timestamp": 1770289801.3537552,
+    "volatility_context": 0.010368034891121503
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 2.149445067619468,
+    "timestamp": 1770291116.6869473,
+    "volatility_context": 0.010405739665517581
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 2.193087509049554,
+    "timestamp": 1770295403.510659,
+    "volatility_context": 0.013627174886254492
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 2.2602182513323767,
+    "timestamp": 1770295739.1710696,
+    "volatility_context": 0.013162364426548454
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 2.2830487387195726,
+    "timestamp": 1770295888.7050707,
+    "volatility_context": 0.013161900219811288
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 2.3061098370904776,
+    "timestamp": 1770296044.0201,
+    "volatility_context": 0.013315609880402524
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 2.35293320792825,
+    "timestamp": 1770296268.4134467,
+    "volatility_context": 0.012307915020743838
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 2.4007072828571063,
+    "timestamp": 1770296538.877894,
+    "volatility_context": 0.012433349354696453
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 2.4249568513708146,
+    "timestamp": 1770296682.5633142,
+    "volatility_context": 0.013312544468906447
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 2.474193298001035,
+    "timestamp": 1770296946.6841154,
+    "volatility_context": 0.012115533272382652
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 2.5244294439353485,
+    "timestamp": 1770297248.7954772,
+    "volatility_context": 0.011172260873303728
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 2.575685587119017,
+    "timestamp": 1770297448.6182764,
+    "volatility_context": 0.010320542271642476
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 2.601702613251532,
+    "timestamp": 1770297559.627498,
+    "volatility_context": 0.009684944556249861
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 2.6813411260359254,
+    "timestamp": 1770297965.1223679,
+    "volatility_context": 0.009344798357944696
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 2.7634173858119255,
+    "timestamp": 1770301903.9497283,
+    "volatility_context": 0.008891163706790758
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 2.7913306927393187,
+    "timestamp": 1770302123.4209857,
+    "volatility_context": 0.009130182909520234
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 2.8195259522619383,
+    "timestamp": 1770349393.1023061,
+    "volatility_context": 0.013672640970885391
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 2.848006012385796,
+    "timestamp": 1770349490.7532153,
+    "volatility_context": 0.013627174886254492
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 2.876773749884643,
+    "timestamp": 1770349779.0987732,
+    "volatility_context": 0.013761114911530063
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 2.9351839096874226,
+    "timestamp": 1770349952.3660314,
+    "volatility_context": 0.013162364426548454
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 2.9648322320074976,
+    "timestamp": 1770351245.2354445,
+    "volatility_context": 0.013161900219811288
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 2.9947800323308056,
+    "timestamp": 1770352602.8920343,
+    "volatility_context": 0.013315609880402524
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 3.1176269744560003,
+    "timestamp": 1770354325.6123345,
+    "volatility_context": 0.012433349354696453
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 3.149118156016162,
+    "timestamp": 1770354410.177675,
+    "volatility_context": 0.013312544468906447
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 3.213058010423591,
+    "timestamp": 1770354635.840885,
+    "volatility_context": 0.012115533272382652
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 3.2782961028707187,
+    "timestamp": 1770356089.6130102,
+    "volatility_context": 0.011172260873303728
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 3.311410204919918,
+    "timestamp": 1770356205.1276104,
+    "volatility_context": 0.010346103555319376
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 3.378645245301416,
+    "timestamp": 1770356414.793754,
+    "volatility_context": 0.009684944556249861
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 3.4820660902478684,
+    "timestamp": 1770356761.5613084,
+    "volatility_context": 0.009344798357944696
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 3.624901679789268,
+    "timestamp": 1770358378.5336876,
+    "volatility_context": 0.009130182909520234
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 3.661516848271988,
+    "timestamp": 1770358470.1940014,
+    "volatility_context": 0.009723990849952565
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 3.7358604716579817,
+    "timestamp": 1770359953.1713824,
+    "volatility_context": 0.009280520187821637
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 3.7735964360181633,
+    "timestamp": 1770360048.882282,
+    "volatility_context": 0.00929874521622076
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 3.8117135717355186,
+    "timestamp": 1770360151.8835828,
+    "volatility_context": 0.008804178147401523
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 3.8502157290257766,
+    "timestamp": 1770360252.5010338,
+    "volatility_context": 0.007647824915573652
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 3.889106796995734,
+    "timestamp": 1770360338.5433624,
+    "volatility_context": 0.007584176899731757
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 3.9283907040360946,
+    "timestamp": 1770361653.7104917,
+    "volatility_context": 0.008169198855544527
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 3.9680714182182775,
+    "timestamp": 1770361757.6834235,
+    "volatility_context": 0.008103778670027383
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 4.048639341106293,
+    "timestamp": 1770363160.9646928,
+    "volatility_context": 0.00825087910735472
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 4.089534687986155,
+    "timestamp": 1770363281.0083246,
+    "volatility_context": 0.008181069366140667
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 4.130843119177934,
+    "timestamp": 1770363375.4006908,
+    "volatility_context": 0.008156302644742996
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 4.172568807250438,
+    "timestamp": 1770363526.225397,
+    "volatility_context": 0.008174399552809072
+  },
+  {
+    "content": "[【活跃趋势】(Tech Analyst 请寻找机会)] ",
+    "score": 4.300291773206442,
+    "timestamp": 1770366290.6738002,
+    "volatility_context": 0.008597689122460485
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 4.343729063844891,
+    "timestamp": 1770366398.2442338,
+    "volatility_context": 0.007771900781309169
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] 【逻辑】未坚持低波动市场的观望策略。",
+    "score": 4.387605114994839,
+    "timestamp": 1770367684.467169,
+    "volatility_context": 0.0077764578713508175
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 4.431924358580646,
+    "timestamp": 1770367790.1467328,
+    "volatility_context": 0.00776022256492242
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 4.476691271293581,
+    "timestamp": 1770367890.0921905,
+    "volatility_context": 0.0072450942124698955
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 4.521910375044022,
+    "timestamp": 1770367974.1989803,
+    "volatility_context": 0.007221396242501646
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 4.6137234721396,
+    "timestamp": 1770369333.070952,
+    "volatility_context": 0.007947927932819992
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 4.660326739534949,
+    "timestamp": 1770370628.483461,
+    "volatility_context": 0.007816710378991433
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 4.707400747004999,
+    "timestamp": 1770371901.1154864,
+    "volatility_context": 0.007826647471654085
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 4.754950249499999,
+    "timestamp": 1770373232.446228,
+    "volatility_context": 0.007837603319995452
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 4.8029800499999995,
+    "timestamp": 1770374518.9135458,
+    "volatility_context": 0.007382061784916568
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 4.851495,
+    "timestamp": 1770374607.2838714,
+    "volatility_context": 0.007359526625424052
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 4.9005,
+    "timestamp": 1770375901.316776,
+    "volatility_context": 0.006828651533698165
+  },
+  {
+    "content": "[【低波死鱼】(建议观望或区间操作)] ",
+    "score": 4.95,
+    "timestamp": 1770377196.0457625,
+    "volatility_context": 0.006769427637126307
   }
 ]

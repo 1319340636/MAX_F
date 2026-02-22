@@ -63,107 +63,73 @@ def get_config_for_symbol(symbol: str):
 # ==============================================================================
 def get_role_system_prompt(role: str, context, lessons_text: str = "(暂无)") -> str:
     """
-    终极版 Prompt：注入 YAML 中的原则库 (Principles) 和 动态规则 (Dynamic Adjustment)
+    修订版 Prompt：动态加载 YAML 规则，充分利用 8192 上下文
     """
+    # 1. 从全局配置加载特定角色的规则 (Section 2 of your YAML)
+    role_cfg = TRADE_CONFIG.get("roles", {}).get(role, {})
+    role_desc = role_cfg.get("description", "Financial Expert")
+    role_rules = role_cfg.get("rules", [])
+    
+    # 2. 加载核心宪法 (Section 3 of your YAML)
+    principles = TRADE_CONFIG.get("principles", {}).get("common", [])
+    
+    # 3. 构造角色专属指令集
+    rules_str = "\n".join([f"- {r}" for r in role_rules])
+    principles_str = "\n".join([f"- {p}" for p in principles])
+
+    # 4. 获取硬参数
     conf, m_type = get_config_for_symbol(context.symbol)
-    
-    # 1. 获取基础配置
-    roles_cfg = conf.get("roles", {})
-    # 如果特定品种没配角色，去全局配里找
-    global_roles = TRADE_CONFIG.get("roles", {})
-    
-    role_instruction = roles_cfg.get(role, "")
-    if not role_instruction:
-        role_instruction = global_roles.get(role, "专业金融分析师，基于数据进行客观分析。")
-    
-    # 2. 提取硬参数 (带默认值兜底)
     sl_pct = conf.get("stop_loss_pct", 0.015) * 100
     tp_pct = conf.get("take_profit_pct", 0.035) * 100
-    pos_limit = conf.get("single_position_pct", 0.15) * 100
-    total_limit = conf.get("total_position_pct", 0.30) * 100
-    vol_trigger = conf.get("flashbulb_vol", 1.5)
-
-    # 3. 🔥 动态加载原则库 (Principles)
-    principles_cfg = TRADE_CONFIG.get("principles", {})
-    common_p = "\n- ".join(principles_cfg.get("common", ["风险控制第一"]))
-    causal_p = "\n- ".join(principles_cfg.get("causal_logic", ["有因才有果"]))
-    trend_p = "\n- ".join(principles_cfg.get("trend_trading", ["顺势而为"]))
-    
-    # 4. 🔥 加载动态调整规则 (作为参考建议)
-    dynamic_cfg = TRADE_CONFIG.get("dynamic_adjustment", {})
-    perf_adj = "\n- ".join(dynamic_cfg.get("performance_based_adjustment", []))
-    market_adj = "\n- ".join(dynamic_cfg.get("market_adaptive", []))
 
     base_info = f"""
-# 1. 角色设定 (Role: {role})
-你是 MAS 系统中的核心成员。你的最高指令是：{role_instruction}
+# ROLE: {role}
+{role_desc}
 
-# 2. 核心参考：历史教训 (博学模式 - Working Memory)
-⚠️ 必须优先对比当前行情与以下历史记录的相似性：
-{lessons_text}
+# [CORE RULES] - 你必须死守的底线:
+{rules_str}
 
-# 3. 市场实时数据 ({context.symbol})
-- 当前价格: {context.price}
-- 波动率: {context.volatility:.2%} (⚠️ 触发扩容阈值: {vol_trigger}%)
-- 市场状态: {context.market_env}
-- 当前账户持仓: {context.position_size} 手 (成本: {context.avg_cost})
+# [MARKET PRINCIPLES] - 市场宪法:
+{principles_str}
 
-# 4. 交易原则与动态调整 (宪法)
-## A. 通用原则
-- {common_p}
-- {causal_p}
+# [METAMEMORY] - 长期记忆
+- Global Goal: 保护本金，实现稳健回撤下的复利。
+- Current Position: {context.position_size} lots at {context.avg_cost}.
+- Lessons Learned: {lessons_text}
 
-## B. 策略原则 (趋势/形态)
-- {trend_p}
-
-## C. 动态调整参考 (请根据近期胜率自我调节)
-- {perf_adj}
-- {market_adj}
-
-# 5. 硬性风控红线 (Hard Limits)
-1. 止损: 严格执行 {sl_pct}% 止损。
-2. 止盈: 目标收益 {tp_pct}% 以上。
-3. 仓位: 单笔上限 {pos_limit}%，总持仓上限 {total_limit}%。
+# ⚠️ [REAL-TIME MARKET DATA - READ CAREFULLY]
+- CURRENT_PRICE: {context.price}
+- CURRENT_VOLATILITY (GVZ): {context.volatility*100:.2f}% (Percentage)
+- MARKET_ENVIRONMENT: {context.market_env}
+- CURRENT_POS: {context.position_size} lots
 """
     return base_info.strip()
 
 # ==============================================================================
 # 📊 决策任务模板 (含量化标准 + 止损止盈)
 # ==============================================================================
-DECISION_TASK_TEMPLATE = """
+DECISION_TASK_TEMPLATE = '''
 {role_prompt}
 
-[📜 核心原则]:
-{principles_text}
+【🎯 决策任务】:
+预测未来24小时走势。
 
-[⚡ 历史教训]:
-{lessons_text}
+【⚠️ 强制输出规约】:
+1. **数据回显**: 你的 JSON 'reasoning' 字段开头必须严格遵循格式: "Data Check: Price=[复述价格], Vol=[复述波动率]. My Logic: [你的推理]"。
+2. **严禁幻觉**: 如果你没看到金叉，严禁编造金叉。
+3. **格式约束**: 只输出 JSON，禁止包含 ```json 等 Markdown 标签。
 
-【当前任务】
-基于上述信息预测未来24小时走势。
-
-【⚠️ 量化判定标准 (必须严格执行)】
-1. 置信度 (confidence):
-   - 0.3~0.5: 仅单一技术面信号
-   - 0.6~0.7: 技术面 + 宏观/情绪面共振
-   - 0.8~1.0: 三维以上共振 (技术+宏观+基本面)
-2. 仓位建议 (stake):
-   - 震荡市: 150~200 (高抛低吸)
-   - 趋势市: 100~150 (顺势)
-   - 极端行情/波动率极高: 0~50 (防守)
-
-【输出格式】
-必须输出纯粹的JSON格式，包含具体的止损止盈位，严禁包含任何Markdown格式或额外文字：
 {{
-    "reasoning": "详细逻辑...",
-    "direction": "LONG/SHORT/HOLD",
-    "confidence": 0.8,
-    "stake": 100.0,
-    "position_ratio": 0.2,
-    "stop_loss": 2010.5,
-    "take_profit": 2080.0
+    "reasoning": "Data Check: Price=[当前价格], Vol=[当前波动率]. My Logic: 目前MA60与MA20粘合，波动率处于低位，无明显趋势...",
+    "direction": "HOLD",
+    "confidence": 1.0,
+    "stake": 0.0,
+    "stop_loss": 0.0,
+    "take_profit": 0.0
 }}
-"""
+
+直接开始输出你的 JSON 对象：
+'''
 
 # ==============================================================================
 # 🧠 反思任务模板 (标签化)
@@ -176,6 +142,7 @@ REFLECTION_TASK_TEMPLATE = """
 1. 必须打上标签：【逻辑】或【方向】或【仓位】或【时机】
 2. 字数限制 20 字以内。
 3. 不要输出 <think> 标签或其他废话。
+4. 请基于当前实际数据进行总结，严禁虚构不存在的极端指标。
 
 输出示例：
 【仓位】波动率过大时应主动降杠杆。

@@ -200,12 +200,12 @@ def build_market_context(
     return MarketContext(
         timestamp=curr_date,
         symbol=real_symbol,
-        price=data.Close,
-        volatility=data.Volatility,
+        price=round(data.Close, 2),  # 四舍五入到小数点后两位
+        volatility=round(data.Volatility, 4),  # 波动率保留四位小数
         news_summary=news_summary,
         period=period,
         market_env=market_env,
-        support_level=s1,
-        resistance_level=r1,
+        support_level=round(s1, 2),  # 支撑位保留两位小数
+        resistance_level=round(r1, 2),  # 阻力位保留两位小数
         bias_ma20=bias_pct
     )

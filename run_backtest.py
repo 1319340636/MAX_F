@@ -59,6 +59,18 @@ def main():
     # 获取资产名和Ticker
     symbol_name, ticker = choice_map.get(choice, ("BTC", "BTC-USD"))
     
+    # --- 询问是否使用断点重连 ---
+    print("\n🔄 是否使用断点重连功能？")
+    print("   [y] 是 - 从上次中断的地方继续")
+    print("   [n] 否 - 重新开始新的回测")
+    checkpoint_choice = input("👉 选择: ").strip().lower()
+    use_checkpoint = checkpoint_choice == 'y'
+    
+    if use_checkpoint:
+        print("✅ 将使用断点重连模式")
+    else:
+        print("✅ 将开始新的回测")
+    
     # --- 关键修改：获取对应的 YAML 路径 ---
     strategy_yaml_path = get_strategy_config_path(symbol_name)
     
@@ -73,8 +85,9 @@ def main():
         symbol_name=symbol_name, 
         ticker=ticker, 
         start_date="2023-01-01", 
-        end_date="2024-01-01",
-        max_workers=10 # 异步并发数
+        end_date="2023-03-01",
+        max_workers=12,  # 异步并发数
+        use_checkpoint=use_checkpoint  # 是否使用断点重连
     )
     
     # 2. 获取数据

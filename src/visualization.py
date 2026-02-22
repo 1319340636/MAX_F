@@ -27,7 +27,7 @@ def _save_chart_worker(args):
         mc = mpf.make_marketcolors(up='red', down='green', inherit=True)
         s = mpf.make_mpf_style(base_mpf_style='yahoo', marketcolors=mc)
         
-        # 绘图
+        # 绘图 - 优化图像大小以减少显存占用
         # axisoff=True 去掉坐标轴，让 AI 视觉模型专注于 K 线形态
         fig, axes = mpf.plot(
             df_slice,
@@ -35,13 +35,14 @@ def _save_chart_worker(args):
             volume=True if 'Volume' in df_slice.columns else False,
             style=s,
             returnfig=True,
-            figsize=(10, 6),
+            figsize=(8, 4),  # 减小图像大小
+            dpi=75,  # 降低分辨率
             axisoff=True, 
             tight_layout=True
         )
         
         # 保存
-        fig.savefig(filepath, dpi=100)
+        fig.savefig(filepath, dpi=75)  # 降低保存分辨率
         plt.close(fig) # 显式关闭，防止内存泄漏
     except Exception as e:
         # 多进程中忽略单个绘图错误，但记录到文件
@@ -169,16 +170,18 @@ def plot_backtest_results(output_dir="logs"):
         plt.style.use('ggplot') # 备用风格
 
     # 创建 3 行 1 列的画布
-    fig, axes = plt.subplots(3, 1, figsize=(12, 18))
-    plt.subplots_adjust(hspace=0.4) # 调整子图间距
+    fig, axes = plt.subplots(3, 1, figsize=(16, 24), dpi=300)
+    plt.subplots_adjust(hspace=0.5) # 调整子图间距
 
     # --- 图 1: 资金曲线 (Equity Curve) ---
     axes[0].plot(df_daily['Date'], df_daily['Strategy_Equity'], label='Strategy (MAS)', color='#1f77b4', linewidth=2)
     if 'Benchmark_Equity' in df_daily.columns:
         axes[0].plot(df_daily['Date'], df_daily['Benchmark_Equity'], label='Benchmark', color='gray', linestyle='--', alpha=0.6)
-    axes[0].set_title('Equity Curve: Strategy vs Benchmark', fontsize=14, fontweight='bold')
-    axes[0].set_ylabel('Net Value (Base=100)')
-    axes[0].legend(loc='upper left')
+    axes[0].set_title('Equity Curve: Strategy vs Benchmark', fontsize=18, fontweight='bold')
+    axes[0].set_ylabel('Net Value (Base=100)', fontsize=14)
+    axes[0].set_xlabel('Date', fontsize=14)
+    axes[0].tick_params(axis='both', labelsize=12)
+    axes[0].legend(loc='upper left', fontsize=12)
     axes[0].grid(True, alpha=0.3)
 
     # --- 图 2: 记忆增长 (Memory Growth) ---
@@ -190,9 +193,11 @@ def plot_backtest_results(output_dir="logs"):
         color = colors[idx % len(colors)]
         axes[1].plot(df_learning['Date'], df_learning[col], label=agent_name, color=color, linewidth=1.5)
     
-    axes[1].set_title('Agent Knowledge Growth (Working Memory)', fontsize=14, fontweight='bold')
-    axes[1].set_ylabel('Memory Count')
-    axes[1].legend(loc='upper left', ncol=5)
+    axes[1].set_title('Agent Knowledge Growth (Working Memory)', fontsize=18, fontweight='bold')
+    axes[1].set_ylabel('Memory Count', fontsize=14)
+    axes[1].set_xlabel('Date', fontsize=14)
+    axes[1].tick_params(axis='both', labelsize=12)
+    axes[1].legend(loc='upper left', ncol=5, fontsize=12)
     axes[1].grid(True, alpha=0.3)
 
     # --- 图 3: 信心热力图 (Confidence Heatmap) ---
@@ -204,17 +209,25 @@ def plot_backtest_results(output_dir="logs"):
         df_conf_weekly.index = [idx.replace('_conf', '') for idx in df_conf_weekly.index]
         
         sns.heatmap(df_conf_weekly, ax=axes[2], cmap='YlOrRd', annot=True, fmt='.2f', 
-                    cbar_kws={'label': 'Avg Confidence'}, linewidths=.5)
-        axes[2].set_title('Agent Confidence Intensity (Weekly Heatmap)', fontsize=14, fontweight='bold')
-        axes[2].set_xlabel('Date')
+                    cbar_kws={'label': 'Avg Confidence'}, linewidths=.5, 
+                    annot_kws={'fontsize': 10})
+        axes[2].set_title('Agent Confidence Intensity (Weekly Heatmap)', fontsize=18, fontweight='bold')
+        axes[2].set_xlabel('Date', fontsize=14)
+        axes[2].set_ylabel('Agent', fontsize=14)
+        axes[2].tick_params(axis='both', labelsize=10)
+        # 旋转 x 轴标签以避免重叠
+        plt.setp(axes[2].xaxis.get_majorticklabels(), rotation=45, ha='right')
     else:
         axes[2].text(0.5, 0.5, 'No Confidence Data Available', ha='center')
 
-    # 5. 保存图片
-    save_path = os.path.join(output_dir, "analysis_report.png")
-    plt.savefig(save_path, dpi=300, bbox_inches='tight')
-    plt.close() # 关闭画布释放内存
-    print(f"✅ [SUCCESS] 分析图表已保存至: {save_path}")
+    # 调整布局
+    plt.tight_layout()
+    
+    # 保存高分辨率图表
+    output_path = os.path.join(output_dir, 'analysis_report.png')
+    plt.savefig(output_path, dpi=300, bbox_inches='tight')
+    plt.close(fig)
+    print(f"✅ [SUCCESS] 高分辨率分析图表已保存至: {output_path}")
 
 # 如果直接运行此脚本，默认测试 logs 目录
 if __name__ == "__main__":

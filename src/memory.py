@@ -9,6 +9,8 @@ import os
 import pickle
 import logging
 import numpy as np
+
+logger = logging.getLogger(__name__)
 from typing import List, Dict, Any, Optional
 
 # 禁用 sentence_transformers 的冗余日志，避免刷屏
@@ -164,16 +166,41 @@ class TieredMemoryManager:
     def retrieve_working_memory(self) -> str:
         """
         获取当前最有价值的记忆字符串，用于 Prompt
+        实现滑动窗口总结：当记忆达到num_ctx的80%时，让模型总结过去10天的对话
         """
         if not self.episodic_memory:
             return "(暂无历史教训)"
-            
-        # 简单的排序逻辑：分数高 + 时间近
-        # 每次检索时重新计算 Working Memory
+        
+        # 1. 计算记忆的总长度
         sorted_mems = sorted(self.episodic_memory, key=lambda x: x.get('score', 0), reverse=True)
         self.working_memory = sorted_mems[:self.max_working_size]
         
-        memory_text = "\n".join([f"- {m['content']} (权重:{m.get('score',0):.1f})" for m in self.working_memory])
+        # 计算记忆文本的总长度
+        memory_items = [f"- {m['content']} (权重:{m.get('score',0):.1f})" for m in self.working_memory]
+        memory_text = "\n".join(memory_items)
+        total_length = len(memory_text)
+        
+        # 2. 当记忆达到num_ctx的80%时，触发滑动窗口总结
+        # 使用默认的num_ctx值4096
+        num_ctx = 4096
+        threshold = num_ctx * 0.8
+        
+        if total_length > threshold:
+            # 只保留最近10天的记忆
+            import time
+            ten_days_ago = time.time() - (10 * 24 * 60 * 60)
+            recent_mems = [m for m in self.working_memory if m.get('timestamp', 0) > ten_days_ago]
+            
+            if recent_mems:
+                # 生成滑动窗口总结
+                # 这里使用简单的总结逻辑，实际项目中可以使用LLM进行更智能的总结
+                recent_content = "\n".join([m['content'] for m in recent_mems])
+                summary = f"过去10天的交易总结：{recent_content[:500]}..."
+                
+                # 用总结替换原来的记忆
+                memory_text = summary + "\n(更多历史教训已总结)"
+                logger.info(f"🧠 触发滑动窗口总结，记忆长度从 {total_length} 减少到 {len(memory_text)}")
+        
         return memory_text
 
     def process_feedback(self, lesson_content: str, is_success: bool, return_val: float, volatility: float):
